@@ -53,4 +53,4 @@ Know more about [pull request](https://docs.github.com/en/free-pro-team@latest/g
 
 
 ## :clipboard: License
-MIT © <a href = "https://www.linkedin.com/in/ayush-kaushik-437835174/" target="_blank">Ayush Kaushik</a>
+MIT © <a href = "https://www.linkedin.com/in/ayush-kaushik-437835174/" target="_blank">Bhomik Singh</a>
