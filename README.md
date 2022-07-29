@@ -25,7 +25,7 @@ It is a light-weight browser extension which runs in the menu bar. It boosts you
 Clone the source code locally:
 
 ```sh
-$ git clone https://github.com/7ayush/leetcodeext/
+$ git clone https://github.com/bhomiksingh2000/Leetcode_Ext.git
 $ cd leetcode-enhancer
 ```
 ### Google Chrome
@@ -43,7 +43,7 @@ $ cd leetcode-enhancer
 
 ## :handshake: Contribution
 Contributions are always welcomed, here is what you need to do:
-1. Work on an existing issue or create a new one [here](https://github.com/7ayush/LeetcodeExt/issues)
+1. Work on an existing issue or create a new one [here](https://github.com/bhomiksingh2000/Leetcode_Ext/issues)
 2. Create a pull request linked to that issue
 
 Know more about [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
@@ -53,4 +53,4 @@ Know more about [pull request](https://docs.github.com/en/free-pro-team@latest/g
 
 
 ## :clipboard: License
-MIT © <a href = "https://www.linkedin.com/in/ayush-kaushik-437835174/" target="_blank">Bhomik Singh</a>
+MIT © <a href = "(https://www.linkedin.com/in/bhomik-singh-a8a69b202/)" target="_blank">Bhomik Singh</a>
