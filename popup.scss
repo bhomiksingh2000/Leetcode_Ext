@@ -1,0 +1,107 @@
+$f1: 20px;
+$f2: 12px;
+$c1: #F0F0F0;
+$bg-dark: rgba(40, 42, 46, 1);
+$bg2-dark: rgba(34, 35, 37, 1);
+$c1-dark: rgba(255, 255, 255, 0.9);
+html,
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.wrapper {
+    max-width: 1000px;
+    min-width: 280px;
+}
+
+.wrapper {
+    .link {
+        font-size: $f2;
+        text-align: center;
+    }
+    .brand {
+        background-color: $bg-dark;
+        font-size: $f1;
+        padding: 10px;
+        color: $c1-dark;
+        .title {
+            text-decoration: none;
+            color: $c1-dark;
+            &:hover {
+                color: grey;
+            }
+        }
+        ;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0.25) 0px 4px 4px 0px,
+        rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+    }
+    .logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+    }
+    .github {
+        margin-top: 10px;
+        filter: invert(1);
+    }
+    .brand span {
+        position: absolute;
+        padding-left: 10px;
+    }
+    .notice {
+        padding: 10px;
+        font-weight: bold;
+        color: black;
+        line-height: 15px;
+        background-color: #FFAB00;
+    }
+    .options {
+        padding: 10px;
+        background-color: $bg2-dark;
+        color: $c1-dark;
+        div {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            input {
+                float: right;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .footer {
+        background-color: $bg-dark;
+        padding: 5px 10px;
+        a {
+            text-decoration: underline;
+        }
+        span {
+            position: relative;
+            top: -5px;
+            color: $c1-dark;
+        }
+        // img {
+        //     height: 20px;
+        //     width: auto;
+        // }
+        #deBtn {
+            float: right;
+            top: 2px;
+            cursor: pointer;
+        }
+    }
+    .details {
+        color: $c1-dark;
+        background-color: $bg-dark;
+        padding: 5px 10px;
+        line-height: 15px;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+    }
+}

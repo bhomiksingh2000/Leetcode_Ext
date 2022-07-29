@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    </link>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="brand">
+            <img class="logo" src="icons/logo.png" alt="logo">
+            <span>
+               <a href="https://leetcode.com/problemset/all" class="title" target="_blank">Leetcode</a>
+                <br>Pro</span>
+
+            <a style="float:right" target="_blank" href="https://github.com/7ayush/leetcodeext">
+                <img class="github" src="icons/github.png" alt="github">
+            </a>
+        </div>
+
+
+        <!-- <div class="notice">
+            Please switch to the older UI, the extension will work for the new UI within this week. Sorry for the inconvenience.
+        </div> -->
+
+        <div class="options">
+
+            <div>
+                <label for="locked">Locked Problems</label>
+                <input id="locked" checked type="checkbox" name="settings" value="locked">
+            </div>
+
+            <div>
+                <label for="highlight"> Highlight Solved Problems</label>
+                <input id="highlight" type="checkbox" name="settings" value="highlight">
+            </div>
+            <div>
+                <label for="solvedDiff"> Solved Difficulty Count</label>
+                <input id="solvedDiff" checked type="checkbox" name="settings" value="solvedDiff">
+            </div>
+            <div>
+                <label for="solved"> Solved Problems</label>
+                <input id="solved" checked type="checkbox" name="settings" value="solved">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="disUsers"> Discussion Users</label>
+                <input id="disUsers" checked type="checkbox" name="settings" value="disUsers">
+            </div>
+
+            <fieldset>
+                <legend>Columns</legend>
+                <div>
+                    <label for="status"> Status</label>
+                    <input id="status" checked type="checkbox" name="settings" value="status">
+                </div>
+                <div>
+                    <label for="solution"> Solution </label>
+                    <input id="solution" checked type="checkbox" name="settings" value="solution">
+                </div>
+                <div>
+                    <label for="acceptance"> Acceptance </label>
+                    <input id="acceptance" checked type="checkbox" name="settings" value="acceptance">
+                </div>
+                <div>
+                    <label for="difficulty"> Difficulty </label>
+                    <input id="difficulty" checked type="checkbox" name="settings" value="difficulty">
+                </div>
+                <div>
+                    <label for="frequency"> Frequency </label>
+                    <input id="frequency" checked type="checkbox" name="settings" value="frequency">
+                </div>
+            </fieldset>
+        </div>
+        <form id="form" action="popup.html" action="POST">
+            <div class="buttons options">
+                <input type="text" name="problem" id="problemInput" placeholder="Search on Leetcode" autocomplete="off" required>
+                <button class="btnSubmit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <!-- popup.js is at the end of the page so it gets loaded last -->
+    <script src="popup.js"></script>
+</body>
+
+</html>

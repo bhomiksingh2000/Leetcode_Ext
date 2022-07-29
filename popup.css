@@ -1,0 +1,111 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.wrapper {
+  max-width: 1000px;
+  min-width: 280px;
+}
+
+.wrapper .link {
+  font-size: 12px;
+  text-align: center;
+}
+
+.wrapper .brand {
+  background-color: #282a2e;
+  font-size: 20px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+}
+
+.wrapper .brand .title {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.wrapper .brand .title:hover {
+  color: grey;
+}
+
+.wrapper .logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.wrapper .github {
+  margin-top: 10px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.wrapper .brand span {
+  position: absolute;
+  padding-left: 10px;
+}
+
+.wrapper .notice {
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+  line-height: 15px;
+  background-color: #FFAB00;
+}
+
+.wrapper .options {
+  padding: 10px;
+  background-color: #222325;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.wrapper .options div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.wrapper .options div input {
+  float: right;
+}
+
+.wrapper .options div input:hover {
+  cursor: pointer;
+}
+
+.wrapper .footer {
+  background-color: #282a2e;
+  padding: 5px 10px;
+}
+
+.wrapper .footer a {
+  text-decoration: underline;
+}
+
+.wrapper .footer span {
+  position: relative;
+  top: -5px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.wrapper .footer #deBtn {
+  float: right;
+  top: 2px;
+  cursor: pointer;
+}
+
+.wrapper .details {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #282a2e;
+  padding: 5px 10px;
+  line-height: 15px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 4px 4px 0px, rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+}
+/*# sourceMappingURL=popup.css.map */
