@@ -60,7 +60,7 @@ function setMode() {
 
     print("mode = " + mode)
 }
-
+// h
 setMode();
 
 function resetHide() {
