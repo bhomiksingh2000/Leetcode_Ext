@@ -22,6 +22,7 @@ function updatePopup(options) {
         }
     }
 }
+// js
 
 document.getElementById("form").addEventListener("submit",function(event){
     event.preventDefault();
